@@ -37,25 +37,7 @@ const Footer = () => {
               </div>
             ))}
 
-            {/* Social Icons */}
-            <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
-              {[
-                { name: "Facebook", iconPath: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12...", href: "#" },
-                // { name: "Instagram", iconPath: "" },
-                { name: "Twitter", iconPath: "M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675...", href: "#" },
-                { name: "GitHub", iconPath: "M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18...", href: "#" },
-                { name: "Dribbble", iconPath: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51...", href: "#" },
-              ].map((social, index) => (
-                <li key={index}>
-                  <Link href={social.href} target="_blank" rel="noreferrer" className="text-gray-700 transition hover:opacity-75">
-                    <span className="sr-only">{social.name}</span>
-                    <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path fillRule="evenodd" d={social.iconPath} clipRule="evenodd" />
-                    </svg>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            
           </div>
         </div>
 
