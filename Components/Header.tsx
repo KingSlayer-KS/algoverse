@@ -17,7 +17,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white py-3">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between lg:px-8"
@@ -26,8 +26,8 @@ export default function Header() {
           <a href="/">
             <img
               alt="Algoverse"
-              src="https://img1.wsimg.com/isteam/ip/657ee06e-b4e4-417f-acba-2cdfa0d91b41/algoverse-high-resolution-logo.png"
-              className="h-32 w-auto"
+              src="./logo.png"
+              className="h-24"
             />
           </a>
         </div>
@@ -50,13 +50,10 @@ export default function Header() {
           <a href="/" className="text-sm/6 font-semibold text-gray-900">
             Home
           </a>
-          <a href="/products" className="text-sm/6 font-semibold text-gray-900">
-            Products
-          </a>
           <a href="/serv" className="text-sm/6 font-semibold text-gray-900">
             Services
           </a>
-          <a href="/services" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/about-us" className="text-sm/6 font-semibold text-gray-900">
             Company
           </a>
         </PopoverGroup>
@@ -93,12 +90,7 @@ export default function Header() {
             >
               Home
             </a>
-            <a
-              href="/products"
-              className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
-            >
-              Products
-            </a>
+            
             <a
               href="/serv"
               className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"

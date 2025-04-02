@@ -4,7 +4,10 @@ import { EnvelopeIcon, MapIcon } from "@heroicons/react/24/outline";
 
 export default function Contact() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100 p-4">
+<div
+  className="flex justify-center items-center h-screen bg-cover bg-center p-4"
+  style={{ backgroundImage: `url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply')` }}
+>
       <div className="max-w-6xl w-full bg-white rounded-lg shadow-lg grid grid-cols-1 md:grid-cols-2">
         {/* Left Section - Contact Details */}
         <div className="bg-gray-50 p-8 rounded-l-lg">

@@ -1,5 +1,9 @@
+import Header from "@/Components/Header";
+
 export default function Example(){
     return (
+      <> 
+      <Header />
       <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-base font-semibold text-indigo-600">Deploy faster</h2>
@@ -94,6 +98,7 @@ export default function Example(){
           </div>
         </div>
       </div>
+      </>
     );
   }
   
