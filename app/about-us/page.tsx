@@ -8,7 +8,7 @@ import Hero from "@/Components/Hero";
 export default function Products() {
   return( 
   <>
-  <div className="animate__animated animate__fadeIn">
+  <div >
  
   <Header />
       <Hero/>
