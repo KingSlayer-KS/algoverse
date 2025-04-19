@@ -4,7 +4,6 @@ import Stats from "@/Components/Stats";
 import Header from "@/Components/Header";
 import Teams from "@/Components/Teams";
 import Hero from "@/Components/Hero";
-import "./globals.css";
 
 export default function Products() {
   return( 
