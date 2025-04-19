@@ -11,6 +11,9 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
+
 
 
 export default function Header() {
@@ -23,13 +26,13 @@ export default function Header() {
         className="mx-auto flex max-w-7xl items-center justify-between lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               alt="Algoverse"
               src="./logo.png"
               className="h-24"
             />
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -47,21 +50,21 @@ export default function Header() {
         {/* Desktop Menu */}
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative"></Popover>
-          <a href="/" className="text-sm/6 font-semibold text-gray-900">
+          <Link href="/" className="text-sm/6 font-semibold text-gray-900">
             Home
-          </a>
-          <a href="/serv" className="text-sm/6 font-semibold text-gray-900">
+          </Link>
+          <Link href="/serv" className="text-sm/6 font-semibold text-gray-900">
             Services
-          </a>
-          <a href="/about-us" className="text-sm/6 font-semibold text-gray-900">
+          </Link>
+          <Link href="/about-us" className="text-sm/6 font-semibold text-gray-900">
             Company
-          </a>
+          </Link>
         </PopoverGroup>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/contact-us" className="text-sm/6 font-semibold text-gray-900">
+          <Link href="/contact-us" className="text-sm/6 font-semibold text-gray-900">
             Contact Us <span aria-hidden="true">&rarr;</span>
-          </a>
+          </Link>
         </div>
       </nav>
 
@@ -84,31 +87,31 @@ export default function Header() {
             </button>
           </div>
           <div className="mt-6 space-y-2">
-            <a
+            <Link
               href="/"
               className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
             >
               Home
-            </a>
+            </Link>
             
-            <a
+            <Link
               href="/serv"
               className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
             >
               Services
-            </a>
-            <a
+            </Link>
+            <Link
               href="/about-us"
               className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
             >
               About Us
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact-us"
               className="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </DialogPanel>
       </Dialog>

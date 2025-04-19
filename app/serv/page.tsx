@@ -1,4 +1,5 @@
 import Header from "@/Components/Header";
+import Image from 'next/image'
 
 export default function Example(){
     return (
@@ -21,7 +22,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                <img className="w-full max-w-sm" src="./images/custom.png" alt="Custom Software Development" />
+                <Image className="w-full max-w-sm" src="./images/custom.png" alt="Custom Software Development" />
                 </div>
               </div>
             </div>
@@ -35,7 +36,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="./images/infra.png" alt="IT Infrastructure Management" />
+                  <Image className="w-full max-w-sm" src="./images/infra.png" alt="IT Infrastructure Management" />
                 </div>
               </div>
             </div>
@@ -49,7 +50,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="./images/data.png" alt="Data Analytics" />
+                  <Image className="w-full max-w-sm" src="./images/data.png" alt="Data Analytics" />
                 </div>
               </div>
             </div>
@@ -63,7 +64,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="./images/mobDev.png" alt="Mobile App Development" />
+                  <Image className="w-full max-w-sm" src="./images/mobDev.png" alt="Mobile App Development" />
                 </div>
               </div>
             </div>
@@ -77,7 +78,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="./images/consult.png" alt="IT Consulting & Advisory" />
+                  <Image className="w-full max-w-sm" src="./images/consult.png" alt="IT Consulting & Advisory" />
                 </div>
               </div>
             </div>
@@ -91,7 +92,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="Cybersecurity" />
+                  <Image className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="Cybersecurity" />
                 </div>
               </div>
             </div>

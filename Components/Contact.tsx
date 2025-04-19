@@ -1,5 +1,4 @@
 "use client";
-
 import { EnvelopeIcon, MapIcon } from "@heroicons/react/24/outline";
 
 export default function Contact() {

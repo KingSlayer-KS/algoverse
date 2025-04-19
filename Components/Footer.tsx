@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="lg:flex lg:items-start lg:gap-8">
           {/* Logo */}
           <div className="text-teal-600">
-          <img
+          <Image
               alt="Algoverse"
               src="https://img1.wsimg.com/isteam/ip/657ee06e-b4e4-417f-acba-2cdfa0d91b41/algoverse-high-resolution-logo.png"
               className="h-24"
