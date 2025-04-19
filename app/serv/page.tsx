@@ -4,7 +4,7 @@ export default function Example(){
     return (
       <> 
       <Header />
-      <div className="bg-gray-50 py-24 sm:py-32">
+      <div className="animate__animated animate__fadeIn bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-base font-semibold text-indigo-600">Deploy faster</h2>
           <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
@@ -21,7 +21,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="Custom Software Development" />
+                <img className="w-full max-w-sm" src="./images/custom.png" alt="Custom Software Development" />
                 </div>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="IT Infrastructure Management" />
+                  <img className="w-full max-w-sm" src="./images/infra.png" alt="IT Infrastructure Management" />
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="Data Analytics" />
+                  <img className="w-full max-w-sm" src="./images/data.png" alt="Data Analytics" />
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="Mobile App Development" />
+                  <img className="w-full max-w-sm" src="./images/mobDev.png" alt="Mobile App Development" />
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Example(){
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 sm:px-10 pb-2">
-                  <img className="w-full max-w-sm" src="https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png" alt="IT Consulting & Advisory" />
+                  <img className="w-full max-w-sm" src="./images/consult.png" alt="IT Consulting & Advisory" />
                 </div>
               </div>
             </div>

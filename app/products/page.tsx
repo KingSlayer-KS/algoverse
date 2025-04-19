@@ -4,8 +4,11 @@ import Footer from "@/Components/Footer";
 export default function Products() {
   return( 
   <>
-      <Header />
+  <div className="animate__animated animate__fadeIn">
+  <Header />
         <Contact />
         <Footer />
+</div>
+      
   </>)
 }

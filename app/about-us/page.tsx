@@ -8,7 +8,9 @@ import Hero from "@/Components/Hero";
 export default function Products() {
   return( 
   <>
-      <Header />
+  <div className="animate__animated animate__fadeIn">
+ 
+  <Header />
       <Hero/>
       <div className="px-24 sm:px-32">
         <Teams />
@@ -16,5 +18,8 @@ export default function Products() {
       <Clients/>
       <Stats/>
       <Cta/>
+</div>
+
+      
   </>)
 }

@@ -5,12 +5,14 @@ import Stats from "@/Components/Stats";
 import Clients from "@/Components/Clients";
 import Cta from "@/Components/Cta";
 import Header from "@/Components/Header";
+import 'animate.css';
+
 
 export default function Home() {
   return (
     <>
     <Header/>
-    <div className="min-h-screen bg-gray-100">
+    <div className="animate__animated animate__fadeIn min-h-screen bg-gray-100">
       <Hero/>
       <Features/>
       <Stats/>
