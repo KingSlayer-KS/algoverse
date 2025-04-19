@@ -6,6 +6,7 @@ import Clients from "@/Components/Clients";
 import Cta from "@/Components/Cta";
 import Header from "@/Components/Header";
 import 'animate.css';
+import "./globals.css";
 
 
 export default function Home() {
