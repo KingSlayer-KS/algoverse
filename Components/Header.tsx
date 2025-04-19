@@ -11,7 +11,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import Image from "next/image";
+
 import Link from "next/link";
 
 
@@ -27,7 +27,7 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <Link href="/">
-            <Image
+            <img
               alt="Algoverse"
               src="./logo.png"
               className="h-24"

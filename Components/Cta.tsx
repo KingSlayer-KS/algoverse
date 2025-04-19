@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { JSX } from 'react';
 
 export default function Example(): JSX.Element {
@@ -9,7 +9,7 @@ export default function Example(): JSX.Element {
           <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
-            className="absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+            className="absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-img:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
           >
             <circle r={512} cx={512} cy={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
             <defs>
@@ -37,7 +37,7 @@ export default function Example(): JSX.Element {
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
-            <Image
+            <img
               alt="App screenshot"
               src="https://tailwindui.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
               width={1824}

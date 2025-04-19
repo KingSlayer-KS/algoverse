@@ -1,5 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
-import Image from 'next/image';
+
 import { JSX } from 'react';
 
 interface Feature {
@@ -55,7 +55,7 @@ export default function Example(): JSX.Element {
               </dl>
             </div>
           </div>
-          <Image
+          <img
             alt="Product screenshot"
             src="https://tailwindui.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
             width={2432}
