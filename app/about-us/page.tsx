@@ -12,7 +12,7 @@ export default function Products() {
  
   <Header />
       <Hero/>
-      <div className="px-24 sm:px-32">
+      <div className="px-24 sm:px-32 animate__animated animate__fadeIn">
         <Teams />
       </div>
       <Clients/>
